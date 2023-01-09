@@ -8,9 +8,5 @@ This is a mobile version of [Obiskelijalounas](https://github.com/ollitoivanen/O
 
 ## How it works
 
-The app fetches the up-to-date menus from [OpiskelijalounasWebFetchAction](https://github.com/ollitoivanen/OpiskelijalounasWebFetchAction). 
-The mentioned repository contains a github action that runs every hour fetching menu data from the lunch providers' websites. It then manipulates it to the correct format and pushes it to the
-[all_restaurants_menu.json](https://github.com/ollitoivanen/OpiskelijalounasWebFetchAction/blob/main/all_restaurants_menu.json) -file.
-
-When opening the app, a fetch request is made to this JSON file, and the app is populated with up-to-date menus.
+The app fetches the up-to-date menus from the lunch providers' websites. It then manipulates it to the correct format and displays it on the app.
 
